@@ -1361,75 +1361,75 @@ tu_init();
  * SPRITES
  ***********************************************************************/
 function __heroSprite() { 
-__sprite_init__(this, heroSprite, 115, 215, 57, 107, 'Circle', 48, 0, 115, 0, 215, ['img/heroSprite_0.png','img/heroSprite_1.png','img/heroSprite_2.png','img/heroSprite_3.png']);
+__sprite_init__(this, heroSprite, 115, 215, 57, 107, 'Circle', 48, 0, 115, 0, 215, ['heroSprite_0.png','img/heroSprite_1.png','img/heroSprite_2.png','img/heroSprite_3.png']);
 }; var heroSprite = new __heroSprite();
 
 function __heroMask() { 
-__sprite_init__(this, heroMask, 26, 26, 13, 13, 'Circle', 26, 0, 107, 0, 107, ['img/heroMask_0.png']);
+__sprite_init__(this, heroMask, 26, 26, 13, 13, 'Circle', 26, 0, 107, 0, 107, ['heroMask_0.png']);
 }; var heroMask = new __heroMask();
 
 function __high1() { 
-__sprite_init__(this, high1, 54, 54, 27, 27, 'Circle', 26, 0, 27, 0, 27, ['img/high1_0.png']);
+__sprite_init__(this, high1, 54, 54, 27, 27, 'Circle', 26, 0, 27, 0, 27, ['high1_0.png']);
 }; var high1 = new __high1();
 
 function __windSprite() { 
-__sprite_init__(this, windSprite, 64, 64, 32, 32, 'Circle', 18, 0, 64, 0, 64, ['img/windSprite_0.png','img/windSprite_1.png','img/windSprite_2.png','img/windSprite_3.png']);
+__sprite_init__(this, windSprite, 64, 64, 32, 32, 'Circle', 18, 0, 64, 0, 64, ['windSprite_0.png','img/windSprite_1.png','img/windSprite_2.png','img/windSprite_3.png']);
 }; var windSprite = new __windSprite();
 
 function __heightLineBorder() { 
-__sprite_init__(this, heightLineBorder, 40, 480, 0, 0, 'Box', 20, 0, 40, 0, 480, ['img/heightLineBorder_0.png']);
+__sprite_init__(this, heightLineBorder, 40, 480, 0, 0, 'Box', 20, 0, 40, 0, 480, ['heightLineBorder_0.png']);
 }; var heightLineBorder = new __heightLineBorder();
 
 function __heightLine() { 
-__sprite_init__(this, heightLine, 40, 480, 0, 480, 'Box', 20, 0, 40, 0, 480, ['img/heightLine_0.png']);
+__sprite_init__(this, heightLine, 40, 480, 0, 480, 'Box', 20, 0, 40, 0, 480, ['heightLine_0.png']);
 }; var heightLine = new __heightLine();
 
 function __whiteLine() { 
-__sprite_init__(this, whiteLine, 40, 480, 0, 0, 'Box', 20, 0, 40, 0, 480, ['img/whiteLine_0.png']);
+__sprite_init__(this, whiteLine, 40, 480, 0, 0, 'Box', 20, 0, 40, 0, 480, ['whiteLine_0.png']);
 }; var whiteLine = new __whiteLine();
 
 function __staminaLine() { 
-__sprite_init__(this, staminaLine, 40, 480, 0, 480, 'Box', 20, 0, 40, 0, 480, ['img/staminaLine_0.png']);
+__sprite_init__(this, staminaLine, 40, 480, 0, 480, 'Box', 20, 0, 40, 0, 480, ['staminaLine_0.png']);
 }; var staminaLine = new __staminaLine();
 
 function __angryBirdSprite() { 
-__sprite_init__(this, angryBirdSprite, 166, 266, 83, 133, 'Circle', 23, 0, 166, 0, 266, ['img/angryBirdSprite_0.png']);
+__sprite_init__(this, angryBirdSprite, 166, 266, 83, 133, 'Circle', 23, 0, 166, 0, 266, ['angryBirdSprite_0.png']);
 }; var angryBirdSprite = new __angryBirdSprite();
 
 function __birdHeight() { 
-__sprite_init__(this, birdHeight, 166, 266, 83, 133, 'Circle', 20, 0, 266, 0, 111, ['img/birdHeight_0.png']);
+__sprite_init__(this, birdHeight, 166, 266, 83, 133, 'Circle', 20, 0, 266, 0, 111, ['birdHeight_0.png']);
 }; var birdHeight = new __birdHeight();
 
 function __dragonSpr() { 
-__sprite_init__(this, dragonSpr, 170, 128, 85, 64, 'Circle', 30, 0, 170, 0, 128, ['img/dragonSpr_0.png','img/dragonSpr_1.png','img/dragonSpr_2.png','img/dragonSpr_3.png']);
+__sprite_init__(this, dragonSpr, 170, 128, 85, 64, 'Circle', 30, 0, 170, 0, 128, ['dragonSpr_0.png','img/dragonSpr_1.png','img/dragonSpr_2.png','img/dragonSpr_3.png']);
 }; var dragonSpr = new __dragonSpr();
 
 function __dragonBreathSpr() { 
-__sprite_init__(this, dragonBreathSpr, 170, 128, 85, 64, 'Box', 85, 0, 170, 0, 128, ['img/dragonBreathSpr_0.png','img/dragonBreathSpr_1.png','img/dragonBreathSpr_2.png','img/dragonBreathSpr_3.png']);
+__sprite_init__(this, dragonBreathSpr, 170, 128, 85, 64, 'Box', 85, 0, 170, 0, 128, ['dragonBreathSpr_0.png','img/dragonBreathSpr_1.png','img/dragonBreathSpr_2.png','img/dragonBreathSpr_3.png']);
 }; var dragonBreathSpr = new __dragonBreathSpr();
 
 function __dragonFireSpr() { 
-__sprite_init__(this, dragonFireSpr, 32, 32, 16, 16, 'Circle', 10, 0, 32, 0, 32, ['img/dragonFireSpr_0.png','img/dragonFireSpr_1.png','img/dragonFireSpr_2.png','img/dragonFireSpr_3.png']);
+__sprite_init__(this, dragonFireSpr, 32, 32, 16, 16, 'Circle', 10, 0, 32, 0, 32, ['dragonFireSpr_0.png','img/dragonFireSpr_1.png','img/dragonFireSpr_2.png','img/dragonFireSpr_3.png']);
 }; var dragonFireSpr = new __dragonFireSpr();
 
 function __bulletSpr() { 
-__sprite_init__(this, bulletSpr, 2, 2, 1, 1, 'Box', 1, 0, 2, 0, 2, ['img/bulletSpr_0.png']);
+__sprite_init__(this, bulletSpr, 2, 2, 1, 1, 'Box', 1, 0, 2, 0, 2, ['bulletSpr_0.png']);
 }; var bulletSpr = new __bulletSpr();
 
 function __heroGunSprite() { 
-__sprite_init__(this, heroGunSprite, 115, 215, 57, 107, 'Box', 107, 0, 215, 0, 115, ['img/heroGunSprite_0.png','img/heroGunSprite_1.png','img/heroGunSprite_2.png','img/heroGunSprite_3.png']);
+__sprite_init__(this, heroGunSprite, 115, 215, 57, 107, 'Box', 107, 0, 215, 0, 115, ['heroGunSprite_0.png','img/heroGunSprite_1.png','img/heroGunSprite_2.png','img/heroGunSprite_3.png']);
 }; var heroGunSprite = new __heroGunSprite();
 
 function __heightLabel() { 
-__sprite_init__(this, heightLabel, 40, 480, 0, 0, 'Box', 20, 0, 40, 0, 480, ['img/heightLabel_0.png']);
+__sprite_init__(this, heightLabel, 40, 480, 0, 0, 'Box', 20, 0, 40, 0, 480, ['heightLabel_0.png']);
 }; var heightLabel = new __heightLabel();
 
 function __staminaLabel() { 
-__sprite_init__(this, staminaLabel, 40, 480, 0, 0, 'Box', 20, 0, 40, 0, 480, ['img/staminaLabel_0.png']);
+__sprite_init__(this, staminaLabel, 40, 480, 0, 0, 'Box', 20, 0, 40, 0, 480, ['staminaLabel_0.png']);
 }; var staminaLabel = new __staminaLabel();
 
 function __startScreen() { 
-__sprite_init__(this, startScreen, 480, 480, 0, 0, 'Box', 240, 0, 480, 0, 480, ['img/startScreen_0.png']);
+__sprite_init__(this, startScreen, 480, 480, 0, 0, 'Box', 240, 0, 480, 0, 480, ['startScreen_0.png']);
 }; var startScreen = new __startScreen();
 
 
@@ -1443,11 +1443,11 @@ __sprite_init__(this, startScreen, 480, 480, 0, 0, 'Box', 240, 0, 480, 0, 480, [
  * MUSICS
  ***********************************************************************/
 function __GameOverMusic() { 
-__audio_init__(this, GameOverMusic, 'aud/LD36_gamover.wav', 'aud/LD36_gamover.mp3', 'aud/LD36_gamover.ogg');
+__audio_init__(this, GameOverMusic, 'aud/LD36_gamover.wav', 'aud/LD36_gamover.mp3', 'LD36_gamover.ogg');
 }; var GameOverMusic = new __GameOverMusic();
 
 function __MainTheme() { 
-__audio_init__(this, MainTheme, 'aud/LD36_theme.wav', 'aud/LD36_theme.mp3', 'aud/LD36_theme.ogg');
+__audio_init__(this, MainTheme, 'aud/LD36_theme.wav', 'aud/LD36_theme.mp3', 'LD36_theme.ogg');
 }; var MainTheme = new __MainTheme();
 
 
@@ -1456,13 +1456,13 @@ __audio_init__(this, MainTheme, 'aud/LD36_theme.wav', 'aud/LD36_theme.mp3', 'aud
  * BACKGROUNDS
  ***********************************************************************/
 function __highLevel() { 
-__background_init__(this, highLevel, 'img/italy_highlevel3.jpg')}; var highLevel = new __highLevel();
+__background_init__(this, highLevel, 'italy_highlevel3.jpg')}; var highLevel = new __highLevel();
 
 function __badFinalText() { 
-__background_init__(this, badFinalText, 'img/bad_final.png')}; var badFinalText = new __badFinalText();
+__background_init__(this, badFinalText, 'bad_final.png')}; var badFinalText = new __badFinalText();
 
 function __goodFinalText() { 
-__background_init__(this, goodFinalText, 'img/good_final.png')}; var goodFinalText = new __goodFinalText();
+__background_init__(this, goodFinalText, 'good_final.png')}; var goodFinalText = new __goodFinalText();
 
 
 
